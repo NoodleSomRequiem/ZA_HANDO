@@ -1,0 +1,46 @@
+
+
+<body>
+<div id="array">Make a few hand poses until you form a letter in the alphabet!(click right mouse button and then inspect, you can see the results swiftly come by in the console)</div>
+    <h1>ZAAAA HANDOOOOOO</h1>
+    <div id="container">
+        <canvas id="output" ></canvas>
+        <video id="video" playsinline ></video>
+
+
+    </div>
+    <h2>Recognize za hando</h2>
+    <button id="classify">CLASSIFY</button>
+    <button id="O">Dit is een O</button>
+    <button id="L">Dit is een L</button>
+    <button id="E">Dit is een E</button>
+
+
+</body>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Load three.js -->
+    <script defer src="https://unpkg.com/@tensorflow/tfjs-core@2.1.0/dist/tf-core.js"></script>
+    <script defer src="https://unpkg.com/@tensorflow/tfjs-converter@2.1.0/dist/tf-converter.js"></script>
+
+    <script src="./src/knear.js"></script>
+    <script src="./src/app.js"></script>
+
+    <!-- GPU backend -->
+    <script defer src="https://unpkg.com/@tensorflow/tfjs-backend-webgl@2.1.0/dist/tf-backend-webgl.js"></script>
+    <!-- CPU backend -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-cpu"></script> -->
+    <!-- WASM backend -->
+    <!-- <script src="https://unpkg.com/@tensorflow/tfjs-backend-wasm@2.1.0/dist/tf-backend-wasm.js"></script> -->
+
+    <script defer src="https://unpkg.com/@tensorflow-models/handpose@0.0.6/dist/handpose.js"></script>
+    <script defer src="./src/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNN Algorithm</title>
+    <script defer src="../handpose/src/knear.js"></script>
+    <script defer src="../handpose/src/app.js"></script>
+
+</head>
